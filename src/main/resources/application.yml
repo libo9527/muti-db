@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    master:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/db_a?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456
+    slave:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/db_b?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456
+#    url:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    username:
+#    password:
+
